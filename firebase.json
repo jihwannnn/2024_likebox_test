@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "source": "functions",
+    "codebase": "default",
+    "ignore": [
+      "venv",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "*.local"
+    ]
+  },
+  "emulators": {
+    "functions": {
+      "port": 8888,
+      "host": "localhost"
+    }
+  }
+}
